@@ -52,38 +52,41 @@ final class StatusBarMenuBuilder {
         }
 
         // 3. All provider accounts shown together, grouped by provider header
-        let providers = providersWithData
-        if !providers.isEmpty {
-            for (index, provider) in providers.enumerated() {
-                let accounts = accountsForProvider(provider)
+        //    Hidden entirely when user opts out via "Show quota in menu panel" setting.
+        if MenuBarSettingsManager.shared.showQuotaInMenuPanel {
+            let providers = providersWithData
+            if !providers.isEmpty {
+                for (index, provider) in providers.enumerated() {
+                    let accounts = accountsForProvider(provider)
 
-                // Provider section header
-                let headerView = MenuProviderSectionHeader(provider: provider)
-                menu.addItem(viewItem(for: headerView))
+                    // Provider section header
+                    let headerView = MenuProviderSectionHeader(provider: provider)
+                    menu.addItem(viewItem(for: headerView))
 
-                if accounts.isEmpty {
-                    menu.addItem(buildEmptyStateItem())
-                } else {
-                    for account in accounts {
-                        let cardItem = buildAccountCardItem(
-                            email: account.email,
-                            data: account.data,
-                            provider: provider
-                        )
-                        menu.addItem(cardItem)
+                    if accounts.isEmpty {
+                        menu.addItem(buildEmptyStateItem())
+                    } else {
+                        for account in accounts {
+                            let cardItem = buildAccountCardItem(
+                                email: account.email,
+                                data: account.data,
+                                provider: provider
+                            )
+                            menu.addItem(cardItem)
+                        }
+                    }
+
+                    // Separator between provider groups (not after the last one)
+                    if index < providers.count - 1 {
+                        menu.addItem(NSMenuItem.separator())
                     }
                 }
 
-                // Separator between provider groups (not after the last one)
-                if index < providers.count - 1 {
-                    menu.addItem(NSMenuItem.separator())
-                }
+                menu.addItem(NSMenuItem.separator())
+            } else {
+                menu.addItem(buildEmptyStateItem())
+                menu.addItem(NSMenuItem.separator())
             }
-
-            menu.addItem(NSMenuItem.separator())
-        } else {
-            menu.addItem(buildEmptyStateItem())
-            menu.addItem(NSMenuItem.separator())
         }
         
         // 4. Action items
@@ -359,7 +362,7 @@ final class MenuActionHandler: NSObject {
 
         NSApplication.shared.activate(ignoringOtherApps: true)
 
-        if let window = NSApplication.shared.windows.first(where: { $0.title == "Quotio" }) {
+        if let window = NSApplication.shared.windows.first(where: { $0.title == "QuotioX" }) {
             window.makeKeyAndOrderFront(nil)
 
             if window.isMiniaturized {
@@ -380,7 +383,7 @@ private struct MenuHeaderView: View {
     
     var body: some View {
         HStack {
-            Text("Quotio")
+            Text("QuotioX")
                 .font(.headline)
                 .fontWeight(.semibold)
             

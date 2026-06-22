@@ -123,11 +123,11 @@ enum OperatingMode: String, Codable, CaseIterable, Identifiable, Sendable {
     var visiblePages: [NavigationPage] {
         switch self {
         case .monitor:
-            return [.dashboard, .quota, .providers, .settings, .about]
+            return [.dashboard, .quota, .providers, .settings]
         case .localProxy:
-            return [.dashboard, .quota, .providers, .agents, .apiKeys, .logs, .settings, .about]
+            return [.dashboard, .quota, .providers, .agents, .apiKeys, .logs, .settings]
         case .remoteProxy:
-            return [.dashboard, .quota, .providers, .apiKeys, .settings, .about]
+            return [.dashboard, .quota, .providers, .apiKeys, .settings]
         }
     }
     

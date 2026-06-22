@@ -430,6 +430,7 @@ final class MenuBarSettingsManager {
     private let colorModeKey = "menuBarColorMode"
     private let showMenuBarIconKey = "showMenuBarIcon"
     private let showQuotaKey = "menuBarShowQuota"
+    private let showQuotaInPanelKey = "menuBarShowQuotaInPanel"
     private let menuBarMaxItemsKey = "menuBarMaxItems"
     private let quotaDisplayModeKey = "quotaDisplayMode"
     private let quotaDisplayStyleKey = "quotaDisplayStyle"
@@ -450,6 +451,11 @@ final class MenuBarSettingsManager {
     /// Whether to show quota in menu bar (only effective when showMenuBarIcon is true)
     var showQuotaInMenuBar: Bool {
         didSet { defaults.set(showQuotaInMenuBar, forKey: showQuotaKey) }
+    }
+
+    /// Whether to show the quota / accounts section inside the menu bar dropdown panel
+    var showQuotaInMenuPanel: Bool {
+        didSet { defaults.set(showQuotaInMenuPanel, forKey: showQuotaInPanelKey) }
     }
 
     /// Maximum number of items to display in menu bar
@@ -525,6 +531,12 @@ final class MenuBarSettingsManager {
             defaults.set(true, forKey: showQuotaKey)
         }
         self.showQuotaInMenuBar = defaults.bool(forKey: showQuotaKey)
+
+        // Show quota section inside menu panel - default true if not set
+        if defaults.object(forKey: showQuotaInPanelKey) == nil {
+            defaults.set(true, forKey: showQuotaInPanelKey)
+        }
+        self.showQuotaInMenuPanel = defaults.bool(forKey: showQuotaInPanelKey)
         
         if defaults.object(forKey: menuBarMaxItemsKey) == nil {
             defaults.set(Self.defaultMenuBarMaxItems, forKey: menuBarMaxItemsKey)

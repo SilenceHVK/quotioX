@@ -520,7 +520,6 @@ nonisolated enum NavigationPage: String, CaseIterable, Identifiable {
     case apiKeys = "API Keys"
     case logs = "Logs"
     case settings = "Settings"
-    case about = "About"
 
     var id: String { rawValue }
 
@@ -534,7 +533,6 @@ nonisolated enum NavigationPage: String, CaseIterable, Identifiable {
         case .apiKeys: return "key.horizontal"
         case .logs: return "doc.text"
         case .settings: return "gearshape"
-        case .about: return "info.circle"
         }
     }
 }

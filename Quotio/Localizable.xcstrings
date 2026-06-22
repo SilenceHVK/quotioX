@@ -254,25 +254,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio is a native macOS application for managing CLIProxyAPI - a local proxy server that powers your AI coding agents. Manage multiple AI accounts, track quotas, and configure CLI tools in one place."
+            "value" : "QuotioX is a native macOS application for managing CLIProxyAPI - a local proxy server that powers your AI coding agents. Manage multiple AI accounts, track quotas, and configure CLI tools in one place."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio est une application macOS native pour gérer CLIProxyAPI - un serveur proxy local qui alimente vos agents de codage IA. Gérez plusieurs comptes IA, suivez les quotas et configurez les outils CLI en un seul endroit."
+            "value" : "QuotioX est une application macOS native pour gérer CLIProxyAPI - un serveur proxy local qui alimente vos agents de codage IA. Gérez plusieurs comptes IA, suivez les quotas et configurez les outils CLI en un seul endroit."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio là ứng dụng macOS để quản lý CLIProxyAPI - máy chủ proxy cục bộ hỗ trợ các AI coding agent. Quản lý nhiều tài khoản AI, theo dõi hạn mức và cấu hình các công cụ CLI tại một nơi."
+            "value" : "QuotioX là ứng dụng macOS để quản lý CLIProxyAPI - máy chủ proxy cục bộ hỗ trợ các AI coding agent. Quản lý nhiều tài khoản AI, theo dõi hạn mức và cấu hình các công cụ CLI tại một nơi."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio 是一个原生 macOS 应用程序，用于管理 CLIProxyAPI - 一个为您的 AI 编码代理提供支持的本地代理服务器。在一个地方管理多个 AI 账户、跟踪配额和配置 CLI 工具。"
+            "value" : "QuotioX 是一个原生 macOS 应用程序，用于管理 CLIProxyAPI - 一个为您的 AI 编码代理提供支持的本地代理服务器。在一个地方管理多个 AI 账户、跟踪配额和配置 CLI 工具。"
           }
         }
       }
@@ -748,25 +748,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open Quotio"
+            "value" : "Open QuotioX"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ouvrir Quotio"
+            "value" : "Ouvrir QuotioX"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mở Quotio"
+            "value" : "Mở QuotioX"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打开 Quotio"
+            "value" : "打开 QuotioX"
           }
         }
       }
@@ -777,25 +777,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quit Quotio"
+            "value" : "Quit QuotioX"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quitter Quotio"
+            "value" : "Quitter QuotioX"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thoát Quotio"
+            "value" : "Thoát QuotioX"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "退出 Quotio"
+            "value" : "退出 QuotioX"
           }
         }
       }
@@ -1560,25 +1560,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This will remove Quotio proxy configuration and restore the agent to use its default provider endpoints. Your other settings (permissions, MCP servers, etc.) will be preserved."
+            "value" : "This will remove QuotioX proxy configuration and restore the agent to use its default provider endpoints. Your other settings (permissions, MCP servers, etc.) will be preserved."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cela supprimera la configuration proxy de Quotio et rétablira l'agent pour utiliser les points de terminaison par défaut de son fournisseur. Vos autres réglages (autorisations, serveurs MCP, etc.) seront conservés."
+            "value" : "Cela supprimera la configuration proxy de QuotioX et rétablira l'agent pour utiliser les points de terminaison par défaut de son fournisseur. Vos autres réglages (autorisations, serveurs MCP, etc.) seront conservés."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thao tác này sẽ xóa cấu hình proxy Quotio và khôi phục agent về các endpoint mặc định của nhà cung cấp. Các cài đặt khác của bạn (quyền, máy chủ MCP, v.v.) sẽ được giữ nguyên."
+            "value" : "Thao tác này sẽ xóa cấu hình proxy QuotioX và khôi phục agent về các endpoint mặc định của nhà cung cấp. Các cài đặt khác của bạn (quyền, máy chủ MCP, v.v.) sẽ được giữ nguyên."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此操作将移除 Quotio 代理配置，并将代理恢复为使用其提供商的默认端点。你的其他设置（权限、MCP 服务器等）将被保留。"
+            "value" : "此操作将移除 QuotioX 代理配置，并将代理恢复为使用其提供商的默认端点。你的其他设置（权限、MCP 服务器等）将被保留。"
           }
         }
       }
@@ -2082,25 +2082,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Route requests through Quotio proxy"
+            "value" : "Route requests through QuotioX proxy"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Acheminer les requêtes via le proxy Quotio"
+            "value" : "Acheminer les requêtes via le proxy QuotioX"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Định tuyến yêu cầu qua proxy Quotio"
+            "value" : "Định tuyến yêu cầu qua proxy QuotioX"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "通过 Quotio 代理转发请求"
+            "value" : "通过 QuotioX 代理转发请求"
           }
         }
       }
@@ -8827,25 +8827,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Move Quotio to Applications folder for reliable auto-start"
+            "value" : "Move QuotioX to Applications folder for reliable auto-start"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Déplacez Quotio vers le dossier Applications pour un démarrage automatique fiable"
+            "value" : "Déplacez QuotioX vers le dossier Applications pour un démarrage automatique fiable"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Di chuyển Quotio vào thư mục Applications để tự khởi động ổn định"
+            "value" : "Di chuyển QuotioX vào thư mục Applications để tự khởi động ổn định"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "将 Quotio 移至应用程序文件夹以确保可靠的自动启动"
+            "value" : "将 QuotioX 移至应用程序文件夹以确保可靠的自动启动"
           }
         }
       }
@@ -11820,25 +11820,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio is configured and ready to use with the following mode:"
+            "value" : "QuotioX is configured and ready to use with the following mode:"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio est configuré et prêt à être utilisé avec le mode suivant :"
+            "value" : "QuotioX est configuré et prêt à être utilisé avec le mode suivant :"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio đã được cấu hình và sẵn sàng sử dụng với chế độ sau:"
+            "value" : "QuotioX đã được cấu hình và sẵn sàng sử dụng với chế độ sau:"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio 已配置完成，可以使用以下模式："
+            "value" : "QuotioX 已配置完成，可以使用以下模式："
           }
         }
       }
@@ -12429,25 +12429,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose how you want to use Quotio"
+            "value" : "Choose how you want to use QuotioX"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choisissez comment vous souhaitez utiliser Quotio"
+            "value" : "Choisissez comment vous souhaitez utiliser QuotioX"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chọn cách bạn muốn sử dụng Quotio"
+            "value" : "Chọn cách bạn muốn sử dụng QuotioX"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "选择您想要使用 Quotio 的方式"
+            "value" : "选择您想要使用 QuotioX 的方式"
           }
         }
       }
@@ -12516,25 +12516,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio supports these AI providers"
+            "value" : "QuotioX supports these AI providers"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio prend en charge ces fournisseurs IA"
+            "value" : "QuotioX prend en charge ces fournisseurs IA"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio hỗ trợ các nhà cung cấp AI sau"
+            "value" : "QuotioX hỗ trợ các nhà cung cấp AI sau"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quotio 支持这些 AI 提供商"
+            "value" : "QuotioX 支持这些 AI 提供商"
           }
         }
       }
@@ -12777,25 +12777,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Welcome to Quotio"
+            "value" : "Welcome to QuotioX"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bienvenue sur Quotio"
+            "value" : "Bienvenue sur QuotioX"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chào mừng đến với Quotio"
+            "value" : "Chào mừng đến với QuotioX"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "欢迎使用 Quotio"
+            "value" : "欢迎使用 QuotioX"
           }
         }
       }
@@ -13533,9 +13533,8 @@
         }
       }
     },
-    "Quotio" : {
-      "comment" : "The main window of the application.",
-      "isCommentAutoGenerated" : true
+    "QuotioX" : {
+
     },
     "Refresh" : {
 
@@ -16266,6 +16265,35 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在菜单栏显示配额"
+          }
+        }
+      }
+    },
+    "settings.menubar.showQuotaInPanel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Quota in Menu Panel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher le quota dans le panneau de menus"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị Quota trong bảng menu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单面板显示配额"
           }
         }
       }
@@ -22064,25 +22092,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The API key is used to fetch your terminal usage quotas only. Quotio does not proxy your traffic for Warp."
+            "value" : "The API key is used to fetch your terminal usage quotas only. QuotioX does not proxy your traffic for Warp."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La clé API est utilisée uniquement pour récupérer vos quotas d'utilisation du terminal. Quotio ne sert pas de proxy pour votre trafic Warp."
+            "value" : "La clé API est utilisée uniquement pour récupérer vos quotas d'utilisation du terminal. QuotioX ne sert pas de proxy pour votre trafic Warp."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "API key chỉ được sử dụng để lấy hạn mức sử dụng terminal của bạn. Quotio không proxy lưu lượng của bạn cho Warp."
+            "value" : "API key chỉ được sử dụng để lấy hạn mức sử dụng terminal của bạn. QuotioX không proxy lưu lượng của bạn cho Warp."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "该 API 密钥仅用于获取您的终端使用配额。Quotio 不会代理您的 Warp 流量。"
+            "value" : "该 API 密钥仅用于获取您的终端使用配额。QuotioX 不会代理您的 Warp 流量。"
           }
         }
       }

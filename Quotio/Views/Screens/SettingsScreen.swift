@@ -1716,6 +1716,13 @@ struct MenuBarSettingsSection: View {
             set: { settings.showQuotaInMenuBar = $0 }
         )
     }
+
+    private var showQuotaInPanelBinding: Binding<Bool> {
+        Binding(
+            get: { settings.showQuotaInMenuPanel },
+            set: { settings.showQuotaInMenuPanel = $0 }
+        )
+    }
     
     private var colorModeBinding: Binding<MenuBarColorMode> {
         Binding(
@@ -1750,7 +1757,9 @@ struct MenuBarSettingsSection: View {
             
             if settings.showMenuBarIcon {
                 Toggle("settings.menubar.showQuota".localized(), isOn: showQuotaBinding)
-                
+
+                Toggle("settings.menubar.showQuotaInPanel".localized(), isOn: showQuotaInPanelBinding)
+
                 if settings.showQuotaInMenuBar {
                     HStack {
                         Text("settings.menubar.maxItems".localized())
@@ -1905,10 +1914,10 @@ struct AboutTab: View {
                 .font(.system(size: 48))
                 .foregroundStyle(.blue)
             
-            Text("Quotio")
+            Text("QuotioX")
                 .font(.title)
                 .fontWeight(.bold)
-            
+
             Text("CLIProxyAPI GUI Wrapper")
                 .foregroundStyle(.secondary)
             
@@ -2013,7 +2022,7 @@ struct AboutScreen: View {
             
             // App Name & Tagline
             VStack(spacing: 8) {
-                Text("Quotio")
+                Text("QuotioX")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 

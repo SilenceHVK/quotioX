@@ -69,9 +69,9 @@ enum AppMode: String, Codable, CaseIterable, Identifiable {
     var visiblePages: [NavigationPage] {
         switch self {
         case .full:
-            return [.dashboard, .quota, .providers, .agents, .apiKeys, .logs, .settings, .about]
+            return [.dashboard, .quota, .providers, .agents, .apiKeys, .logs, .settings]
         case .quotaOnly:
-            return [.dashboard, .quota, .providers, .settings, .about]
+            return [.dashboard, .quota, .providers, .settings]
         }
     }
     

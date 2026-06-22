@@ -188,7 +188,7 @@ struct QuotioApp: App {
 
 
     var body: some Scene {
-        Window("Quotio", id: "main") {
+        Window("QuotioX", id: "main") {
             ContentView()
                 .id(languageManager.currentLanguage) // Force re-render on language change
                 .environment(viewModel)
@@ -220,6 +220,9 @@ struct QuotioApp: App {
                 }
                 .onChange(of: menuBarSettings.showQuotaInMenuBar) {
                     bootstrap.updateStatusBar()
+                }
+                .onChange(of: menuBarSettings.showQuotaInMenuPanel) {
+                    statusBarManager.rebuildMenuInPlace()
                 }
                 .onChange(of: menuBarSettings.showMenuBarIcon) {
                     bootstrap.updateStatusBar()
@@ -640,9 +643,6 @@ struct ContentView: View {
                         
                         Label("nav.settings".localized(), systemImage: "gearshape")
                             .tag(NavigationPage.settings)
-                        
-                        Label("nav.about".localized(), systemImage: "info.circle")
-                            .tag(NavigationPage.about)
                     }
                 }
                 
@@ -671,7 +671,7 @@ struct ContentView: View {
                 }
                 .background(.regularMaterial)
             }
-            .navigationTitle("Quotio")
+            .navigationTitle("QuotioX")
             .toolbar {
                 ToolbarItem {
                     if modeManager.isLocalProxyMode {
@@ -716,8 +716,6 @@ struct ContentView: View {
                 LogsScreen()
             case .settings:
                 SettingsScreen()
-            case .about:
-                AboutScreen()
             }
         }
     }
